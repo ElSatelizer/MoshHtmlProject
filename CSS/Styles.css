@@ -1,0 +1,31 @@
+/* 62.5% of 16px = 10 px. turning each rem unit into 10px. makes calculating rem units easier  */
+html {
+  font-size: 62.5%;
+}
+/* global color variables. if changes in color are needed this will be the place to do it */
+:root {
+  --color-primary: #2584ff;
+  --color-primary: #00d9ff;
+  --color-accent: #ff3400;
+  --color-headings: #1b0760;
+  --color-body: #918ca4;
+}
+
+body {
+  font-family: Inter, arial, helvetica, sans-serif;
+  color: var(--color-body);
+}
+
+h1,
+h2,
+h3 {
+  color: var(--color-headings);
+}
+
+h1 {
+  font-size: 7rem;
+}
+
+h2 {
+  font-size: 4rem;
+}
