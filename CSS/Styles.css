@@ -1,8 +1,3 @@
-/* Typography */
-/* 62.5% of 16px = 10 px. turning each rem unit into 10px. makes calculating rem units easier  */
-html {
-  font-size: 62.5%;
-}
 /* global color variables. if changes in color are needed this will be the place to do it */
 :root {
   --color-primary: #2584ff;
@@ -12,6 +7,16 @@ html {
   --color-body: #918ca4;
 }
 
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+/* Typography */
+/* 62.5% of 16px = 10 px. turning each rem unit into 10px. makes calculating rem units easier  */
+html {
+  font-size: 62.5%;
+}
 body {
   color: var(--color-body);
   font-family: Inter, arial, helvetica, sans-serif;
@@ -157,4 +162,61 @@ a {
   display: inline-flex;
   justify-content: center;
   align-items: center;
+}
+
+/* buttons */
+/* structure */
+.btn {
+  border-radius: 40px;
+  border: 0;
+  cursor: pointer;
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin: 1rem 0;
+  padding: 2rem 3rem;
+  text-align: center;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+/* skins */
+.btn--outline:hover {
+  background: var(--color-headings);
+  color: #fff;
+}
+.btn--outline {
+  background: #fff;
+  color: var(--color-headings);
+  border: 2px solid var(--color-headings);
+}
+.btn--primary:hover {
+  background: #3079da;
+}
+.btn--primary {
+  background: var(--color-primary);
+  color: #fff;
+}
+.btn--secondary:hover {
+  background: #02a5be;
+}
+
+.btn--secondary {
+  background: var(--color-secondary);
+  color: #fff;
+}
+
+.btn--accent:hover {
+  background: #962205;
+}
+.btn--accent {
+  background: var(--color-accent);
+  color: #fff;
+}
+.btn--block {
+  display: inline-block;
+  width: 100%;
+}
+@media screen and (min-width: 1024px) {
+  .btn {
+    font-size: 1.5rem;
+  }
 }
