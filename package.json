@@ -1,0 +1,25 @@
+{
+  "name": "MoshHtmlProject",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ElSatelizer/MoshHtmlProject.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ElSatelizer/MoshHtmlProject/issues"
+  },
+  "homepage": "https://github.com/ElSatelizer/MoshHtmlProject#readme",
+  "devDependencies": {
+    "parcel": "^2.0.0-beta.2",
+    "parcel-bundler": "^1.12.4"
+  },
+  "dependencies": {},
+  "description": ""
+}

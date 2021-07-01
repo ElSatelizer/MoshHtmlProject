@@ -133,7 +133,7 @@ a {
 /* lists */
 .list {
   list-style: none;
-  padding-left: 0.5;
+  padding-left: 0.5rem;
 }
 .list--inline .list__item {
   display: inline-block;
@@ -292,7 +292,7 @@ a {
 
 .card__header,
 .card__body {
-  padding: 2rem 3 rem;
+  padding: 2rem 3rem;
   border-radius: 5px;
 }
 
