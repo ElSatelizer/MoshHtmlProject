@@ -1,6 +1,6 @@
 /* global color variables. if changes in color are needed this will be the place to do it */
 @import "./Normalize.css";
-:root  {
+:root {
   --color-primary: #2584ff;
   --color-secondary: #00d9ff;
   --color-accent: #ff3400;
@@ -509,6 +509,9 @@ a {
 .callout__content {
   text-align: center;
 }
+.btn--accent.callout__btn {
+  border: solid 2px #000;
+}
 @media screen and (min-width: 768px) {
   .callout__content {
     text-align: left;
@@ -728,7 +731,7 @@ a {
 /* footer */
 .footer {
   background: #232323;
-  margin-top: 2rem;
+  margin-top: 0rem;
 }
 .footer a {
   color: #777;
@@ -738,6 +741,7 @@ a {
   color: #fff;
 }
 .footer__section {
+  margin-top: 3rem;
   padding: 1.5rem;
   border: 1px solid #393939;
 }
