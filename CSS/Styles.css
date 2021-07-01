@@ -1,6 +1,6 @@
 /* global color variables. if changes in color are needed this will be the place to do it */
-
-:root {
+@import "./Normalize.css";
+:root  {
   --color-primary: #2584ff;
   --color-secondary: #00d9ff;
   --color-accent: #ff3400;

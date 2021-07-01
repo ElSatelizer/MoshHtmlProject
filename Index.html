@@ -18,14 +18,16 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="CSS/Normalize.css" />
+
     <link rel="stylesheet" href="CSS/Styles.css" />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
     <header>
       <nav class="nav collapsible">
-        <a class="nav__brand" href="/"><img src="images/logo.svg" alt="" /></a>
+        <a aria-label="moshify" class="nav__brand" href=""
+          ><img src="images/logo.svg" alt="moshify brand logo"
+        /></a>
         <svg class="icon icon--white nav__toggler">
           <use href="images/Icons/sprite.svg#menu"></use>
         </svg>
@@ -41,7 +43,7 @@
       <div class="container grid grid--1x2">
         <header class="block__header hero__content">
           <h1 data-aos="fade-right" class="block__heading">
-            Shaylene Smith is the best! thank you for checking it out!
+            Cloud Hosting for Pros
           </h1>
           <p class="hero__tagline">
             Deploy your websites in less than 60 seconds.
@@ -71,6 +73,7 @@
       </header>
       <div class="input-group">
         <input
+          aria-label="Domain"
           type="text"
           class="input"
           placeholder="Enter domain name here..."
